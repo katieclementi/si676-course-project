@@ -18,23 +18,23 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder CSV
+title: Digital Collection of American Lighthouses
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: SI 676 Course Project
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "Project compiled in Fall 2026 for Managing Digital Collections at the University of Michigan, School of Information."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho; history; inland northwest
+keywords: lighthouses; digital collection; archives
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: Katie Clementi
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-compoundobjects-metadata 
+metadata: lab4-metadata
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -42,14 +42,14 @@ metadata: demo-compoundobjects-metadata
 #     template: 'item'
 #     name: 'objectid'
 #     dir: 'items'
-#     extension: 'html' 
-#     filter: 'objectid'  
+#     extension: 'html'
+#     filter: 'objectid'
 
 ##########
 # ORGANIZATION SETTINGS
 #
 # Enter name and link for your organization (replacing the name and links below)
-# These values will be used in attribution and data 
+# These values will be used in attribution and data
 organization-name: "Center for Digital Inquiry and Learning (CDIL)"
 organization-link: https://cdil.lib.uidaho.edu/
 # Add logo image links if you would like them to appear in banner and footer. Delete or leave blank to remove logos.
