@@ -1,0 +1,6 @@
+filename,object_location,image_small,image_thumb
+item_001.jpg,/objects/item_001.jpg,/objects/small/item_001_sm.jpg,/objects/thumbs/item_001_th.jpg
+item_002.jpg,/objects/item_002.jpg,/objects/small/item_002_sm.jpg,/objects/thumbs/item_002_th.jpg
+item_003.jpg,/objects/item_003.jpg,/objects/small/item_003_sm.jpg,/objects/thumbs/item_003_th.jpg
+item_004.jpg,/objects/item_004.jpg,/objects/small/item_004_sm.jpg,/objects/thumbs/item_004_th.jpg
+item_005.jpg,/objects/item_005.jpg,/objects/small/item_005_sm.jpg,/objects/thumbs/item_005_th.jpg
