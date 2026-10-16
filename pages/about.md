@@ -18,7 +18,7 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## About CollectionBuilder CSV
+## About Digital Collection of American Lighthouses
 
 This digital collection was compiled as part of a course project for SI 676 at the University of Michigan, School of Information. It includes items from the Lighthouses set in the Library of Congress' Free to Use and Reuse sets [Digital Collections](https://www.loc.gov/free-to-use/lighthouses/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
 
