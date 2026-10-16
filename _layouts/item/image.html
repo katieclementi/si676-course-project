@@ -1,15 +1,15 @@
 ---
 # basic image item layout
-# Displays image_small if available, with fall back to object_location. 
-# Adds gallery view to open images full screen using object_location, with fall back to image_small.
+# Displays the item image directly on the page.
 layout: item/item-page-base
-gallery: true
 ---
 
 <div class="card mb-4 text-center">
 
-    {% include item/image-gallery.html %}
-    
+    <img src="{{ page.image_small | default: page.object_location | relative_url }}"
+         alt="{{ page.image_alt_text | default: page.title | escape }}"
+         class="img-fluid mx-auto">
+
     <div class="card-body">
 
         {% include item/download-buttons.html %}
