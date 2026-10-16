@@ -1,12 +1,10 @@
 {% if site.data.theme.browse-child-objects == true %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+{%- assign items = site.data[site.metadata] | where_exp: 'item', 'item.objectid' -%}
 {% else %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+{%- assign items = site.data[site.metadata]
+      | where_exp: 'item', 'item.objectid'
+      | where_exp: 'item', 'item.parentid == nil' -%}
 {% endif %}
-{%- assign fields = site.data.config-browse -%}
-{% unless site.data.theme.faceted-search or site.data.theme.advanced-search %}
-{% include js/browse-simple-js.html %}
-{% else %}
 <script>
 /**
  * BROWSE PAGE JAVASCRIPT - Less Janky Version
