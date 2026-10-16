@@ -8,6 +8,10 @@
 {%- endif -%}
 {%- endfor -%}
 {% endif %}
+{%- assign fields = site.data.config-browse -%}
+{% unless site.data.theme.faceted-search or site.data.theme.advanced-search %}
+{% include js/browse-simple-js.html %}
+{% else %}
 <script>
 /**
  * BROWSE PAGE JAVASCRIPT - Less Janky Version
